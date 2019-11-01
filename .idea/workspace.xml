@@ -21,7 +21,7 @@
   <component name="ProjectId" id="1T1MEBKW23i0zovXyPT8qdrulCu" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSE" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572623033910</updated>
-      <workItem from="1572623035063" duration="3966000" />
+      <workItem from="1572623035063" duration="4453000" />
     </task>
     <servers />
   </component>
