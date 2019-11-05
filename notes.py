@@ -89,3 +89,17 @@ middle = large + small
 print(small)
 print(middle)
 print(large)
+
+# Comparison Operators
+# Result in a Boolean (T/F)
+
+print(8 < 7)
+print(8 < 8)
+print(8 < 9)
+
+print(8 <= 7)
+print(8 <= 8)
+print(9 >= 7)
+
+print(8 == 8)  # Double equal signs means check if they are equal
+print(8 != 9)  # != means not equal
