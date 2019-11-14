@@ -1,3 +1,4 @@
+"""
 # My Class Notes
 
 # Printing Strings
@@ -21,10 +22,12 @@ print(False)
 
 # This is a comment
 """
+"""
 This is a multi -
 line comment and I 
 can keep writing
 on multiple lines
+"""
 """
 
 # Basic Math
@@ -103,3 +106,47 @@ print(9 >= 7)
 
 print(8 == 8)  # Double equal signs means check if they are equal
 print(8 != 9)  # != means not equal
+
+# Manipulating String Cases
+my_name = "sam"
+my_name = my_name.upper()
+color = "PURPLE"
+color = color.lower()
+state = "califORNIA"
+state = state.title()
+print(my_name, color, state)
+
+# Concatenating (Joining) Strings
+first = "Ms."
+last = "Bolin"
+full = first + last
+sentence = "Welcome" + full + "to CSE!"
+print(sentence)
+
+# Taking User Input as a String
+name = input("Enter your name: ")
+print(type(name))
+print(name)
+
+age = input("Enter your age: ")
+print(type(age))
+age = int(age)
+print(type(age))
+print(age)
+
+# String formatting
+# places the values of the variables at the end into each curly bracket {} in order
+print("Welcome {}!".format(name))
+print("Welcome {}! You are {} years old!".format(name, age))
+"""
+# Typecasting
+# means turning data into different types
+# like strings or integers
+
+value = int(input("Enter a number: "))
+cost = 12
+print(value+cost)
+
+print("7" + "5")
+print(str(7) + str(6))
+print(7+5)
