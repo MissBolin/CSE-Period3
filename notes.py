@@ -142,11 +142,13 @@ print("Welcome {}! You are {} years old!".format(name, age))
 # Typecasting
 # means turning data into different types
 # like strings or integers
+# Note: we can only + the same data types together
 
-value = int(input("Enter a number: "))
+value = int(input("Enter a number: "))  # int casts the input into an integer data type
 cost = 12
 print(value+cost)
 
-print("7" + "5")
-print(str(7) + str(6))
-print(7+5)
+print("7" + "5")  # If you + strings, you write them next to each other, as in 75
+print(str(7) + str(6))  # str() means cast into a string data type
+                        # This yields 76, because we are adding strings
+print(7+5)  # If you + integers, we add them together to get 12
