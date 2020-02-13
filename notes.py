@@ -138,7 +138,7 @@ print(age)
 # places the values of the variables at the end into each curly bracket {} in order
 print("Welcome {}!".format(name))
 print("Welcome {}! You are {} years old!".format(name, age))
-"""
+
 # Typecasting
 # means turning data into different types
 # like strings or integers
@@ -152,3 +152,170 @@ print("7" + "5")  # If you + strings, you write them next to each other, as in 7
 print(str(7) + str(6))  # str() means cast into a string data type
                         # This yields 76, because we are adding strings
 print(7+5)  # If you + integers, we add them together to get 12
+
+
+# Escape Characters
+# Change Automatic Formatting
+
+sent = "This is my sentence."
+print(sent)
+sent = "This \nis my sentence."
+print(sent)
+sent = "This \tis my sentence."
+print(sent)
+mysentence = "She said \"yes!\""
+print(mysentence)
+mysentence = 'She said \'yes!\''
+print(mysentence)
+sent3 = "Jack's dog"
+sent4 = 'my "dog"'
+
+
+# Making Decisions
+grade = int(input("Enter your percentage: "))
+if grade > 70:
+    print("You passed!")
+
+grade = int(input("Enter your percentage: "))
+if grade >= 70:
+    print("You passed!")
+else:
+    print("you failed oh no!")
+
+grade = int(input("Enter your percentage: "))
+if grade >= 90:
+    print("You got an A!")
+elif grade >= 80:
+    print("You got a B!")
+elif grade >= 70:
+    print("You got a C!")
+else:
+    print("you failed oh no!")
+
+
+# For Loops
+
+for i in range(3):
+    print("hello!")
+
+for i in range(100):
+    print("bruh")
+
+for i in range(1000):
+    print(12)
+
+for i in range(10):
+    print("hello")
+    print(6)
+
+for i in range(10):
+    print(i)
+
+for j in range(2, 10):
+    print(j)
+
+for count in range(13, 25):
+    print(count)
+
+for value in range(17, 50):
+    print(value)
+
+for i in range(1, 11, 2):
+    print(i)
+
+for item in range(4, 20, 3):
+    print(item)
+
+for i in range(50, 10, -1):
+    print(i)
+
+
+
+# Advanced For Loops
+counter = 0
+for i in range(1, 101):
+    counter = counter + i
+print(counter)
+
+# Factorial
+factorial = 1
+for i in range(1, 21):
+    factorial = factorial * i
+    print(factorial)
+
+# Checking Divisibility
+for i in range(100):
+    if i % 2 == 0:
+        print(i)
+
+for i in range(100):
+    if i % 3 == 0:
+        print(i)
+
+for i in range(1800, 1901):
+    if i % 5 == 0:
+        print(i)
+
+# Counting Instances
+count = 0
+for i in range(100):
+    if i % 2 == 0:
+        print(i)
+        count = count + 1
+print(count)
+
+count2 = 0
+count3 = 0
+for i in range(100):
+    if i % 2 == 0:
+        print("{} is divisible by 2".format(i))
+        count2 = count2 + 1
+    if i % 3 == 0:
+        print("{} is divisible by 3".format(i))
+        count3 = count3 + 1
+    if i % 6 == 0:
+        print("{} is divisible by 6".format(i))
+    print("-----------------------------------------")
+print("{} numbers were divisible by 2".format(count2))
+print("{} numbers were divisible by 3".format(count3))
+"""
+
+# While Loops
+
+value = 0
+while value != 10:
+    print("value is currently {}".format(value))
+    value = value + 1
+    print("The new value is {}".format(value))
+
+count = 201
+while count > 0:
+    print("count is currently {}".format(count))
+    count = count - 1
+    print("The new count is {}".format(count))
+
+name = input("Enter your name: ")
+print(len(name))
+while len(name) < 2:
+    print("Your full name")
+    name = input("Enter your name: ")
+print("Welcome {}!".format(name))
+
+sport = input("Guess my favorite sport")
+while sport != "wrestling":
+    if sport == "basketball":
+        print("We don't play with a ball.")
+    elif sport == "soccer":
+        print("Indoors")
+    elif sport == "baseball":
+        print("We don't use a bat.")
+    else:
+        print("Try again")
+    sport = input("Guess my favorite sport")
+print("Yay, you got it!")
+
+# Change this code to be YOUR game rather than mine.
+# Change the answer to be YOUR fav sport, and add in 3 more
+# special hints
+
+

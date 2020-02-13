@@ -21,7 +21,7 @@
   <component name="ProjectId" id="1T1MEBKW23i0zovXyPT8qdrulCu" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CSEperiod6" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,7 +86,20 @@
       <workItem from="1572976182448" duration="2098000" />
       <workItem from="1573754116367" duration="2340000" />
       <workItem from="1573762075923" duration="26000" />
-      <workItem from="1573765714742" duration="378000" />
+      <workItem from="1573765714742" duration="641000" />
+      <workItem from="1573841102493" duration="615000" />
+      <workItem from="1574120066810" duration="14000" />
+      <workItem from="1578938056201" duration="2465000" />
+      <workItem from="1579027237477" duration="1026000" />
+      <workItem from="1579110721919" duration="1115000" />
+      <workItem from="1579732872517" duration="105000" />
+      <workItem from="1580154791637" duration="5000" />
+      <workItem from="1580233890972" duration="2184000" />
+      <workItem from="1580241804853" duration="39000" />
+      <workItem from="1580320135793" duration="4326000" />
+      <workItem from="1580497051466" duration="2758000" />
+      <workItem from="1580751958696" duration="303000" />
+      <workItem from="1581459602386" duration="21000" />
     </task>
     <servers />
   </component>
@@ -107,6 +120,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CSE_Period3$notes.coverage" NAME="notes Coverage Results" MODIFIED="1573755145851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSE_Period3$notes.coverage" NAME="notes Coverage Results" MODIFIED="1578938792094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
